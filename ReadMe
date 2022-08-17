@@ -1,0 +1,43 @@
+in order to execute the test we need following tools
+
+prerequisite:
+
+platform : windows
+automation tool : selenium 4
+browser : Chrome browser
+IDE : pycharm
+language : python 3 and above
+to generate html reports : to install we can use (pip install pytest-html) in command prompt
+to handle browser versions i have used webdriver manager: so to install that use (pip install webdriver-manager) in command prompt
+
+===================================================================================================================================
+
+@ to run the tests we can use pycharm or windows command prompt
+
+to run the tests in pycharm:
+
+* load the j2store_demo project in pycharm
+* once loaded double click on batch file "run.bat" in pycharm and copy any one command and paste it in pycharm terminal and run the command
+* you can check test reports in Reports folder
+
+
+to run in command prompt:
+
+1st method:
+
+* open project "j2store_demo" directory folder
+* double click on batch file "run.bat"
+* command prompt will start executing tests
+* you can check test reports in Reports folder
+
+2nd method:
+* copy the path of project "j2store_demo" folder
+* open command prompt as administrator and paste the path
+* give "run.bat" batch file and run it
+
+
+conditional singh off:
+* for now test scripts run only in chrome browser or command prompt
+* Logs are not getting generated in Logs folder for now, but present in html reports
+* due to time constrain i have done this much, but have to implement on all browsers and will look into logs folder issue
+
