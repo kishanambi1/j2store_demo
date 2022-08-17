@@ -4,6 +4,7 @@ prerequisite:
 
 platform : windows
 automation tool : selenium 4
+framework : pytest
 browser : Chrome browser
 IDE : pycharm
 language : python 3 and above
